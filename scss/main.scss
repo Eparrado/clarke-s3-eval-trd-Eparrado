@@ -6,8 +6,21 @@
 @import "layout/footer";
 @import "layout/grid";
 
-@import "components/buttons";
+
 @import "components/hero";
+@import "components/burguer";
+@import "components/buttons";
 @import "components/typography";
 
 @import "pages/home";
+
+@import "core/helpers";
+
+* {
+box-sizing: border-box;
+}
+
+body,html {
+  height: 100%;
+  margin: 0;
+}

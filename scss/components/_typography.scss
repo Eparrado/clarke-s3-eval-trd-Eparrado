@@ -16,6 +16,7 @@ body {
 .subtitle-hero {
   color: $font-color-light;
   font-size: $font-size-xs;
+  font-weight: $font-weight-regular;
 }
 
 .pretitle-section {
@@ -73,3 +74,5 @@ body {
 
 .center {text-align: center;}
 .left {text-align: left;}
+
+.uppercase {text-transform: uppercase;}
