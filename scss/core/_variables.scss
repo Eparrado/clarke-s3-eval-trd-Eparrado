@@ -1,0 +1,46 @@
+/*variables para los colores*/
+$color-light: #ffffff;
+$color-dark-midtone: #4a4a4a;
+$color-dark: #000000;
+
+$color-primary-light: #e2f1f9;
+$color-primary-light-midtone: #8ccbea;
+$color-primary-midtone: #0271bc;
+$color-primary-dark: #304268;
+
+$color-secundary: #f26002;
+$color-secundary-dark: #ca6002;
+
+/*variables para tipografías*/
+$font-body-family: 'Roboto', sans-serif;
+$font-title-family: 'Roboto Slab', serif;
+
+$font-size-xxs: 14px;
+$font-size-xs: 16px;
+$font-size-s: 18px;
+$font-size-m: 20px;
+$font-size-l: 24px;
+$font-size-xl: 26px;
+$font-size-xxl: 32px;
+$font-size-big: 42px;
+$font-size-bigger: 80px;
+$font-size-hero: 100px;
+
+$font-line-height-xs: 30px;
+$font-line-height-s: 45px;
+$font-line-height-m: 55px;
+$font-line-height-l: 106px;
+$font-line-height-xl: 132px;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$font-color-light: $color-light;
+$font-color-midtone: $color-dark-midtone;
+$font-color-dark: $color-dark;
+$font-color-primary-midtone: $color-primary-light-midtone;
+$font-color-primary-dark: $color-primary-dark;
+$font-color-secundary: $color-secundary;
+$font-color-secundary-dark: $color-secundary-dark;

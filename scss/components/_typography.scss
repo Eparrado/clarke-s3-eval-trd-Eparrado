@@ -1,2 +1,75 @@
-/*font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Slab', serif;*/
+body {
+  font-family: $font-body-family;
+  color: $font-color-dark;
+  font-size: $font-size-s;
+  line-height: $line-height-xs;
+  font-weight: $font-weight-regular;
+}
+
+.tilte-hero {
+  font-family: $font-title-family;
+  color: $font-color-light;
+  font-size: $font-size-big;
+  line-height: $line-height-m;
+}
+
+.subtitle-hero {
+  color: $font-color-light;
+  font-size: $font-size-xs;
+}
+
+.pretitle-section {
+  color: $font-color-primary-midtone;
+  font-size: $font-size-xxs;
+  line-height: $line-height-xs;
+}
+
+.title-section {
+  font-family: $font-title-family;
+  color: $font-color-dark;
+  font-size: $font-size-l;
+  line-height: $line-height-xs;
+}
+
+.introduction {
+  color: $font-color-midtone
+}
+
+.highlight-content {
+  font-family: $font-tile-family;
+  color: $font-color-dark;
+  font-size: $font-size-s;
+  line-height: $line-height-xs;
+}
+
+.footer-font {
+  color: $font-color-light;
+  font-size: $font-size-xxs;
+}
+
+.menu-font {
+  font-family: $font-tile-family;
+  color: $font-color-primary-dark;
+  font-size: $font-size-xs;
+  line-height: $font-line-height-s;
+}
+
+.button-font-positive {
+  color: $font-color-secundary;
+  font-size: $font-size-m;
+  line-height: $font-line-height-s;
+}
+
+.button-font-negative {
+  color: $font-color-light;
+  font-size: $font-size-m;
+  line-height: $font-line-height-s;
+}
+
+
+.bold {font-weight: 700}
+.medium {font-weight: 500}
+.ligh {font-weight: 300}
+
+.center {text-align: center;}
+.left {text-align: left;}
