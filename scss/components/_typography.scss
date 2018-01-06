@@ -2,7 +2,7 @@ body {
   font-family: $font-body-family;
   color: $font-color-dark;
   font-size: $font-size-s;
-  line-height: $line-height-xs;
+  line-height: $font-line-height-xs;
   font-weight: $font-weight-regular;
 }
 
@@ -10,7 +10,7 @@ body {
   font-family: $font-title-family;
   color: $font-color-light;
   font-size: $font-size-big;
-  line-height: $line-height-m;
+  line-height: $font-line-height-m;
 }
 
 .subtitle-hero {
@@ -21,14 +21,14 @@ body {
 .pretitle-section {
   color: $font-color-primary-midtone;
   font-size: $font-size-xxs;
-  line-height: $line-height-xs;
+  line-height: $font-line-height-xs;
 }
 
 .title-section {
   font-family: $font-title-family;
   color: $font-color-dark;
   font-size: $font-size-l;
-  line-height: $line-height-xs;
+  line-height: $font-line-height-xs;
 }
 
 .introduction {
@@ -36,10 +36,10 @@ body {
 }
 
 .highlight-content {
-  font-family: $font-tile-family;
+  font-family: $font-title-family;
   color: $font-color-dark;
   font-size: $font-size-s;
-  line-height: $line-height-xs;
+  line-height: $font-line-height-xs;
 }
 
 .footer-font {
@@ -48,7 +48,7 @@ body {
 }
 
 .menu-font {
-  font-family: $font-tile-family;
+  font-family: $font-title-family;
   color: $font-color-primary-dark;
   font-size: $font-size-xs;
   line-height: $font-line-height-s;

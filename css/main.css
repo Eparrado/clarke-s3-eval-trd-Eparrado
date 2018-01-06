@@ -1,4 +1,89 @@
-/*font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Slab', serif;*/
+@charset "UTF-8";/*variables para los colores*//*variables para tipografías*/body {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.tilte-hero {
+  font-family: "Roboto Slab", serif;
+  color: #ffffff;
+  font-size: 42px;
+  line-height: 55px;
+}
+
+.subtitle-hero {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.pretitle-section {
+  color: #8ccbea;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.title-section {
+  font-family: "Roboto Slab", serif;
+  color: #000000;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.introduction {
+  color: #4a4a4a;
+}
+
+.highlight-content {
+  font-family: "Roboto Slab", serif;
+  color: #000000;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer-font {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.menu-font {
+  font-family: "Roboto Slab", serif;
+  color: #304268;
+  font-size: 16px;
+  line-height: 45px;
+}
+
+.button-font-positive {
+  color: #f26002;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.button-font-negative {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.ligh {
+  font-weight: 300;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
 
 /*# sourceMappingURL=main.css.map */
