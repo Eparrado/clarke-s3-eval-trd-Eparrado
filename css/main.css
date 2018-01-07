@@ -1,4 +1,24 @@
-@charset "UTF-8";/*variables para los colores*//*variables para tipografías*/.hero-backgorund {
+@charset "UTF-8";/*variables para los colores*//*variables para tipografías*/.backgorund-dark-color {
+  background-color: #304268;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.align-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.hero-backgorund {
   background-image: url("../../images/cover.jpg");
   background-size: cover;
   background-position: center;
@@ -36,7 +56,7 @@
   justify-content: center;
 }
 
-.button-next-section {
+.button-scroll {
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -50,6 +70,30 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.button-positive {
+  border: 2px solid #f26002;
+  border-radius: 25px;
+  height: 45px;
+  width: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.button-negative {
+  background-color: #f26002;
+  height: 45px;
+  width: 184px;
+  border-radius: 25px;
+}
+
+.button-top {
+  line-height: 0;
 }
 
 body {
@@ -76,6 +120,7 @@ body {
 .pretitle-section {
   color: #8ccbea;
   font-size: 14px;
+  font-weight: 400;
   line-height: 30px;
 }
 
@@ -100,6 +145,7 @@ body {
 .footer-font {
   color: #ffffff;
   font-size: 14px;
+  font-weight: 400;
 }
 
 .menu-font {
@@ -119,6 +165,10 @@ body {
   color: #ffffff;
   font-size: 20px;
   line-height: 45px;
+}
+
+span {
+  color: #f26002;
 }
 
 .bold {
@@ -145,8 +195,35 @@ body {
   text-transform: uppercase;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.background-light-color {
+  background-color: #e2f1f9;
+  width: 100%;
+  height: 100%;
+}
+
 .no-margin {
   margin: 0;
+}
+
+.general-margin {
+  margin: 0 15px;
+}
+
+.list-margin {
+  margin: 0 70px;
+}
+
+.button-margin {
+  margin: auto;
+}
+
+.margin-top-s {
+  margin-top: 30px;
 }
 
 .margin-top-regular {
@@ -155,6 +232,18 @@ body {
 
 .margin-bottom-regular {
   margin-bottom: 53px;
+}
+
+.margin-bottom-big {
+  margin-bottom: 60px;
+}
+
+.padding-top-s {
+  padding-top: 30px;
+}
+
+.link-style-none {
+  text-decoration: none;
 }
 
 * {

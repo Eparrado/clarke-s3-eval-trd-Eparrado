@@ -22,6 +22,7 @@ body {
 .pretitle-section {
   color: $font-color-primary-midtone;
   font-size: $font-size-xxs;
+  font-weight: $font-weight-regular;
   line-height: $font-line-height-xs;
 }
 
@@ -46,6 +47,7 @@ body {
 .footer-font {
   color: $font-color-light;
   font-size: $font-size-xxs;
+  font-weight: $font-weight-regular;
 }
 
 .menu-font {
@@ -67,6 +69,9 @@ body {
   line-height: $font-line-height-s;
 }
 
+span {
+  color: $color-secundary;
+}
 
 .bold {font-weight: 700}
 .medium {font-weight: 500}

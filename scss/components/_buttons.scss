@@ -1,9 +1,27 @@
-.button-next-section {
-width: 45px;
-height: 45px;
-border-radius: 50%;
-background-color: $color-light;
-display: flex;
-justify-content: center;
-align-items: center;
+.button-scroll {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: $color-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.button-positive {
+  border: 2px solid $color-secundary;
+  border-radius: 25px;
+  height: 45px;
+  width: 76px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-negative {
+  background-color: $color-secundary;
+  height: 45px;
+  width: 184px;
+  border-radius: 25px;
+}
+
+.button-top {line-height: 0;}
