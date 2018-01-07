@@ -4,6 +4,10 @@ body {
   font-size: $font-size-s;
   line-height: $font-line-height-xs;
   font-weight: $font-weight-regular;
+
+  @media all and (min-width: $media-tablet) {
+    font-size: $font-size-m;
+  }
 }
 
 .tilte-hero {
@@ -11,12 +15,25 @@ body {
   color: $font-color-light;
   font-size: $font-size-big;
   line-height: $font-line-height-m;
+
+  @media all and (min-width: $media-tablet) {
+    font-size: $font-size-bigger;
+    line-height: $font-line-height-l;
+  }
+  @media all and (min-width: $media-desktop) {
+    font-size: $font-size-hero;
+    line-height: $font-line-height-xl;
+  }
 }
 
 .subtitle-hero {
   color: $font-color-light;
   font-size: $font-size-xs;
   font-weight: $font-weight-regular;
+
+  @media all and (min-width: $media-tablet) {
+    font-size: $font-size-l;
+  }
 }
 
 .pretitle-section {
@@ -24,6 +41,10 @@ body {
   font-size: $font-size-xxs;
   font-weight: $font-weight-regular;
   line-height: $font-line-height-xs;
+
+  @media all and (min-width: $media-desktop) {
+    font-size: $font-size-xs;
+  }
 }
 
 .title-section {
@@ -31,6 +52,14 @@ body {
   color: $font-color-dark;
   font-size: $font-size-l;
   line-height: $font-line-height-xs;
+
+  @media all and (min-width: $media-tablet) {
+    font-size: $font-size-xl;
+    line-height: $font-line-height-s;
+  }
+  @media all and (min-width: $media-desktop) {
+    font-size: $font-size-xxl;
+  }
 }
 
 .introduction {
@@ -42,6 +71,10 @@ body {
   color: $font-color-dark;
   font-size: $font-size-s;
   line-height: $font-line-height-xs;
+
+  @media all and (min-width: $media-tablet) {
+    font-size: $font-size-l;
+  }
 }
 
 .footer-font {
@@ -61,6 +94,9 @@ body {
   color: $font-color-secundary;
   font-size: $font-size-m;
   line-height: $font-line-height-s;
+  &:hover {
+    color: $font-color-light;
+  }
 }
 
 .button-font-negative {
