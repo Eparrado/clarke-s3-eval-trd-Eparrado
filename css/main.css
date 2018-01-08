@@ -235,7 +235,7 @@ ul {
   padding-left: 0;
 }
 
-.menu-display::after {
+.menu-display {
   background-color: transparent;
   -webkit-transition: background-color ease-in-out 1s;
   transition: background-color ease-in-out 1s;
@@ -245,10 +245,10 @@ ul {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.95);
   position: absolute;
-  width: 80%;
-  left: -400px;
-  -webkit-transition: left ease-in-out 1s;
-  transition: left ease-in-out 1s;
+  width: 276px;
+  left: -4000px;
+  -webkit-transition: left ease 1s;
+  transition: left ease 1s;
 }
 
 .menu-visible .background-menu {
@@ -256,7 +256,7 @@ ul {
   z-index: 2;
 }
 
-.menu-visible::after {
+.menu-visible {
   position: absolute;
   top: 0;
   left: 0;
@@ -407,6 +407,10 @@ body,html {
 
   .highlight-content {
     font-size: 24px;
+  }
+
+  .background-menu {
+    width: 320px;
   }
 
   .general-margin {

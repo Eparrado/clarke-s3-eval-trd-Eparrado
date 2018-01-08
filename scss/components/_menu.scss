@@ -1,17 +1,20 @@
 .menu-display {
-  &::after {
     background-color: rgba($color-dark, 0);
     transition: background-color ease-in-out 1s;
-  }
 }
 
 .background-menu {
   height: 100%;
   background-color: $color-light-transparent;
   position: absolute;
-  width: 80%;
-  left: -400px;
-  transition: left ease-in-out 1s;
+  width: 276px;
+  left: -4000px;
+  transition: left ease 1s;
+
+  @media all and (min-width: $media-tablet) {
+    width: 320px;
+  }
+
   .menu-visible & {
     left: 0;
     z-index: 2;
@@ -19,7 +22,6 @@
 }
 
 .menu-visible {
-  &::after {
     position: absolute;
     top: 0;
     left: 0;
@@ -27,7 +29,6 @@
     height: 100%;
     width: 100%;
     z-index: 2;
-  }
 }
 
 .menu-line {
