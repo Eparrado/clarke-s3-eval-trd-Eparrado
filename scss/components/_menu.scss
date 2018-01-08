@@ -1,0 +1,51 @@
+.menu-display {
+  &::after {
+    background-color: rgba($color-dark, 0);
+    transition: background-color ease-in-out 1s;
+  }
+}
+
+.background-menu {
+  height: 100%;
+  background-color: $color-light-transparent;
+  position: absolute;
+  width: 80%;
+  left: -400px;
+  transition: left ease-in-out 1s;
+  .menu-visible & {
+    left: 0;
+    z-index: 2;
+  }
+}
+
+.menu-visible {
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba($color-dark, 0.7);
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+  }
+}
+
+.menu-line {
+  margin: 0;
+  border: 0.5px solid $color-primary-light;
+}
+
+.close-button {
+  background-color: $color-secundary;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 100%;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  transition: background-color ease-in-out 0.5s;
+  &:hover {
+    background-color: $color-primary-dark;
+  }
+}

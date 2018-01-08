@@ -89,6 +89,7 @@ body {
   color: $font-color-primary-dark;
   font-size: $font-size-xs;
   line-height: $font-line-height-s;
+  font-weight: $font-weight-light;
 }
 
 .button-font-positive {
@@ -112,7 +113,7 @@ span {
 
 .bold {font-weight: 700}
 .medium {font-weight: 500}
-.ligh {font-weight: 300}
+.light {font-weight: 300}
 
 .center {text-align: center;}
 .left {text-align: left;}
