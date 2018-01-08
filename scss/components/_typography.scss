@@ -13,6 +13,7 @@ body {
 .tilte-hero {
   font-family: $font-title-family;
   color: $font-color-light;
+  text-shadow: 0px 2px 3px $color-dark-shadow;
   font-size: $font-size-big;
   line-height: $font-line-height-m;
 
