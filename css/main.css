@@ -18,6 +18,10 @@
   flex-direction: column;
 }
 
+.wrapper {
+  grid-gap: 30px;
+}
+
 .hero-backgorund {
   background-image: url("../../images/cover.jpg");
   background-size: cover;
@@ -123,6 +127,11 @@ svg #ico-scroll-down,svg #ico-arrow {
 .button-top {
   line-height: 0;
   margin: -15px;
+}
+
+.button-shadow {
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 body {
@@ -409,7 +418,7 @@ body,html {
   }
 
   .tilte-hero {
-    font-size: 80px;
+    font-size: 90px;
     line-height: 106px;
   }
 
