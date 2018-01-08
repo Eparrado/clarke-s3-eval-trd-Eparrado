@@ -7,8 +7,12 @@
   justify-content: center;
   align-items: center;
 }
-svg:hover #ico-scroll-down {
-  fill: red;
+
+svg:hover #ico-scroll-down, svg:hover #ico-arrow {
+  fill: $color-primary-dark;
+}
+svg #ico-scroll-down, svg #ico-arrow {
+  transition: fill ease-in-out 1s;
 }
 
 .button-positive {

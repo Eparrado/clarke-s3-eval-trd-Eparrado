@@ -72,6 +72,15 @@
   align-items: center;
 }
 
+svg:hover #ico-scroll-down,svg:hover #ico-arrow {
+  fill: #304268;
+}
+
+svg #ico-scroll-down,svg #ico-arrow {
+  -webkit-transition: fill ease-in-out 1s;
+  transition: fill ease-in-out 1s;
+}
+
 .button-positive {
   border: 2px solid #f26002;
   border-radius: 25px;
