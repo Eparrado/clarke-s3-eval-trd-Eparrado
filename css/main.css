@@ -293,6 +293,23 @@ ul {
   background-color: #304268;
 }
 
+.button-style {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  background-color: none;
+}
+
+.background-menu-link {
+  -webkit-transition: background-color ease-in-out 0.5s;
+  transition: background-color ease-in-out 0.5s;
+}
+
+.background-menu-link:hover {
+  background-color: rgba(226, 241, 249, 0.8);
+}
+
 .background-light-color {
   background-color: #e2f1f9;
   width: 100%;
