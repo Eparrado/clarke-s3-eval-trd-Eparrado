@@ -7,6 +7,9 @@
   justify-content: center;
   align-items: center;
 }
+svg:hover #ico-scroll-down {
+  fill: red;
+}
 
 .button-positive {
   border: 2px solid $color-secundary;
