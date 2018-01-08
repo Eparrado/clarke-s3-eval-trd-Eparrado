@@ -8,4 +8,8 @@
   align-content: center;
   display: flex;
   justify-content: center;
+  transition: background-color ease-in-out 0.5s;
+  &:hover {
+    background-color: $color-secundary;
+  }
 }

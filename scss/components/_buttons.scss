@@ -12,7 +12,7 @@ svg:hover #ico-scroll-down, svg:hover #ico-arrow {
   fill: $color-primary-dark;
 }
 svg #ico-scroll-down, svg #ico-arrow {
-  transition: fill ease-in-out 1s;
+  transition: fill ease-in-out 0.5s;
 }
 
 .button-positive {
@@ -22,15 +22,11 @@ svg #ico-scroll-down, svg #ico-arrow {
   width: 76px;
   display: flex;
   justify-content: center;
+  transition: background-color ease-in-out 0.5s, border ease-in-out 0.5s;
   &:hover {
       border: 2px solid $color-primary-dark;
       background-color: $color-primary-dark;
     }
-}
-.transition-postive {
-  transition:
-  background-color ease-in-out 1s,
-  border ease-in-out 1s;
 }
 
 .button-negative {
@@ -38,12 +34,10 @@ svg #ico-scroll-down, svg #ico-arrow {
   height: 45px;
   width: 184px;
   border-radius: 25px;
+  transition: background-color ease-in-out 0.5s;
   &:hover {
       background-color: $color-primary-dark;
     }
-}
-.transition-negative {
-  transition: background-color ease-in-out 1s;
 }
 
 .button-top {
