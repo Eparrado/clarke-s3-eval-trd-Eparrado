@@ -1,37 +1,7 @@
 .wrapper {
   @media all and (min-width: $media-tablet) {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   }
   grid-gap: 30px;
-  @media all and (min-width: $media-desktop) {
-  grid-template-columns: repeat(12, 1fr);
-  }
-}
-
-.list-item1 {
-  @media all and (min-width: $media-tablet) {
-    grid-column: span 2;
-  }
-  @media all and (min-width: $media-desktop) {
-    grid-column: span 4;
-  }
-}
-
-.list-item2 {
-  @media all and (min-width: $media-tablet) {
-    grid-column: span 2;
-  }
-  @media all and (min-width: $media-desktop) {
-    grid-column: span 4;
-  }
-}
-
-.list-item3 {
-  @media all and (min-width: $media-tablet) {
-    grid-column: span 2;
-  }
-  @media all and (min-width: $media-desktop) {
-    grid-column: span 4;
-  }
 }

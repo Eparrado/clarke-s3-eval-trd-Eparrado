@@ -398,19 +398,7 @@ body,html {
 @media all and (min-width: 768px) {
   .wrapper {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-  }
-
-  .list-item1 {
-    grid-column: span 2;
-  }
-
-  .list-item2 {
-    grid-column: span 2;
-  }
-
-  .list-item3 {
-    grid-column: span 2;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   body {
@@ -457,22 +445,6 @@ body,html {
 }
 
 @media all and (min-width: 1024px) {
-  .wrapper {
-    grid-template-columns: repeat(12, 1fr);
-  }
-
-  .list-item1 {
-    grid-column: span 4;
-  }
-
-  .list-item2 {
-    grid-column: span 4;
-  }
-
-  .list-item3 {
-    grid-column: span 4;
-  }
-
   .tilte-hero {
     font-size: 100px;
     line-height: 132px;
