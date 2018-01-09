@@ -246,8 +246,8 @@ ul {
 
 .menu-display {
   background-color: transparent;
-  -webkit-transition: background-color ease-in-out 1s;
-  transition: background-color ease-in-out 1s;
+  -webkit-transition: background-color ease-in-out 2s;
+  transition: background-color ease-in-out 2s;
 }
 
 .background-menu {
