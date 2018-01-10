@@ -329,18 +329,6 @@ ul {
   margin: 0;
 }
 
-.general-margin {
-  margin: 0 15px;
-}
-
-.list-margin {
-  margin: 0 70px;
-}
-
-.button-margin {
-  margin: auto;
-}
-
 .margin-top-negative {
   margin-top: -25px;
 }
@@ -351,6 +339,10 @@ ul {
 
 .margin-top-regular {
   margin-top: 45px;
+}
+
+.button-margin {
+  margin: auto;
 }
 
 .margin-bottom-small {
@@ -369,8 +361,18 @@ ul {
   margin-bottom: 60px;
 }
 
-.margin-left-menu {
-  margin-left: 15px;
+.general-padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list-padding {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.padding-left-menu {
+  padding-left: 15px;
 }
 
 .padding-top-s {
@@ -427,20 +429,22 @@ body,html {
     width: 320px;
   }
 
-  .general-margin {
-    margin: 0 39px;
-  }
-
-  .list-margin {
-    margin: 0 38px;
-  }
-
   .margin-bottom-m {
     margin-bottom: 60px;
   }
 
   .margin-tablet {
     margin-bottom: 20px;
+  }
+
+  .general-padding {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+
+  .list-padding {
+    padding-left: 38px;
+    padding-right: 38px;
   }
 }
 
@@ -458,12 +462,14 @@ body,html {
     font-size: 32px;
   }
 
-  .general-margin {
-    margin: 0 275px;
+  .general-padding {
+    padding-left: 275px;
+    padding-right: 275px;
   }
 
-  .list-margin {
-    margin: 0 85px;
+  .list-padding {
+    padding-left: 85px;
+    padding-right: 85px;
   }
 }
 

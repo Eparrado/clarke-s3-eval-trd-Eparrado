@@ -1,33 +1,9 @@
 .no-margin {margin: 0;}
-.general-margin {
-  margin: 0 15px;
-
-  @media all and (min-width: $media-tablet) {
-    margin: 0 39px;
-  }
-  @media all and (min-width: $media-desktop) {
-    margin: 0 275px;
-  }
-}
-
-.list-margin {
-  margin: 0 70px;
-
-  @media all and (min-width: $media-tablet) {
-    margin: 0 38px;
-  }
-  @media all and (min-width: $media-desktop) {
-    margin: 0 85px;
-  }
-}
-
-
-.button-margin {margin: auto;}
-
 .margin-top-negative {margin-top: -25px;}
 .margin-top-s {margin-top: 30px;}
 .margin-top-regular {margin-top: 45px;}
 
+.button-margin {margin: auto;}
 .margin-bottom-small {margin-bottom: 15px;}
 .margin-bottom-m {
   margin-bottom: 45px;
@@ -36,7 +12,6 @@
     margin-bottom: 60px;
   }
 }
-
 .margin-bottom-regular {margin-bottom: 53px;}
 .margin-bottom-big {margin-bottom: 60px;}
 .margin-tablet {
@@ -45,8 +20,33 @@
   }
 }
 
-.margin-left-menu {margin-left: 15px;}
+.general-padding {
+  padding-left: 15px;
+  padding-right: 15px;
 
+  @media all and (min-width: $media-tablet) {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+  @media all and (min-width: $media-desktop) {
+    padding-left: 275px;
+    padding-right: 275px;
+  }
+}
+.list-padding {
+  padding-left: 70px;
+  padding-right: 70px;
+
+  @media all and (min-width: $media-tablet) {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+  @media all and (min-width: $media-desktop) {
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+}
+.padding-left-menu {padding-left: 15px;}
 .padding-top-s {padding-top: 30px;}
 
 .link-style-none {text-decoration: none;}
