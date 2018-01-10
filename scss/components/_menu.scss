@@ -8,7 +8,7 @@
   background-color: $color-light-transparent;
   position: absolute;
   width: 276px;
-  left: -4000px;
+  left: -100%;
   transition: left ease 1s;
 
   @media all and (min-width: $media-tablet) {
