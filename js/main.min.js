@@ -18,7 +18,7 @@ var buttonAddReason = document.querySelector('.add-reason');
 buttonAddReason.addEventListener('click', addMoreReason);
 
 function addMoreReason() {
-  return fetch('https://three-random-reasons-izwfjpgbqm.now.sh/') //peticion
+  fetch('https://three-random-reasons-izwfjpgbqm.now.sh/') //peticion
     .then(function(response){ //respuesta
     return response.json(); //transformo a json
   })
